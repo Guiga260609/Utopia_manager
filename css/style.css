@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+    overflow: hidden;
+}
+.utopiainitialpage-logo{
+    width: 536px;
+    top: 16px;
+    left: 7px;
+    position: absolute;
+}
+.utopiainitialpage-manager-text-logo{
+    font-family: Inria Sans;
+    font-size: 64px;
+    font-weight: 400;
+    color: white;
+    line-height: 76.74px;
+    letter-spacing: 0.5em;
+    text-align: left;
+    width: 473px;
+    height: 77px;
+    top: 87px;
+    left: 46px;
+    opacity: 0px;
+    position: absolute;
+}
+.utopiainitialpage-maincontent-text{
+    width: 568px;
+    height: 178px;
+    top: 210px;
+    left: 90px;
+    font-family: Inria Sans;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 89px;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+}
+.utopiainitialpage-backgroundcircle-deco{
+    width: 1179px;
+    height: 1007px;
+    top: -64px;
+    left: 734px;
+    border-radius: 100%;
+    background-color: #262626;
+    position: absolute;
+}
+.utopiainitialpage-tryitout-button{
+    width: 243px;
+    height: 89px;
+    top: 431px;
+    left: 919px;
+    position: absolute;
+    font-family: Inria Sans;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 89px;
+    text-align: center;
+    border-radius:33px;
+    background-color: #3bcdc1;
+    border-color: #ffffff;
+    border-style: solid;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    main{
+        margin-left: 80%; 
+        margin-right:80% ;
+    }
+    .utopiainitialpage-logo{
+        width: 300px;
+    }
+    .utopiainitialpage-manager-text-logo{
+        font-size: 30px;
+        top: 45px;
+        left: 40px;
+    }
+    .utopiainitialpage-maincontent-text{
+        font-size: 20px;
+        width: 200px;
+        line-height: 30px;
+        display: block;
+        left: 10%;
+        top: 150px;
+    }
+    .utopiainitialpage-backgroundcircle-deco{
+        top: 100px;
+        left: 22px;
+        z-index: -1;
+
+    }
+    .utopiainitialpage-tryitout-button{
+        top: 300px;
+        left: 50px;
+    }
+  }
